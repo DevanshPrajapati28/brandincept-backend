@@ -1,22 +1,18 @@
 import nodemailer from 'nodemailer';
 
+const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false,
+    auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+    },
+});
+
 export const sendNotificationEmail = async (inquiryData) => {
     try {
         const { name, email, phone, interest, message } = inquiryData;
-
-        // ✅ Transporter created INSIDE the function
-        // This fixes the ES Module hoisting problem —
-        // process.env is guaranteed to be loaded by the time this runs
-        const transporter = nodemailer.createTransport({
-            host: 'smtp.gmail.com',
-            port: 587,
-            secure: false,
-            auth: {
-                user: process.env.SMTP_USER,
-                pass: process.env.SMTP_PASS,
-            },
-        });
-
         // Skip if credentials not set
         if (!process.env.SMTP_USER || !process.env.SMTP_PASS) {
             console.log('⚠️  SMTP credentials not set. Skipping email.');
