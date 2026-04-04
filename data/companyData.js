@@ -51,12 +51,12 @@ const projectsData = [
     {
         brand: "Homelane",
         description: "Successfully leased and transacted. End-to-end home interior and design solutions.",
-        tags: ["Leasing", "Home Interiors"],
+        tags: ["Ahmedabad", "Home Interiors"],
         image: "/assests/homelaneproject.png",
         highlight: "Successfully Leased & Transacted"
     },
     {
-        brand: "Purple9",
+        brand: "Purple",
         description: "New store opening in Ahmedabad. Premium retail expansion in Gujarat.",
         tags: ["Ahmedabad", "New Store Opening", "Retail"],
         image: "/assests/purple9project.png",
