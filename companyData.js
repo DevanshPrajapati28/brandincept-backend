@@ -43,7 +43,7 @@ export const projectsData = [
     },
     {
         brand: "Homelane",
-        description: "Successfully leased and transacted. End-to-end home interior and design solutions.",
+        description: "Successfully leased and transacted in Ahmedabad. End-to-end home interior and design solutions.",
         tags: ["Ahmedabad", "Home Interiors"],
         image: "/assests/homelaneproject.png",
         highlight: "Successfully Leased & Transacted"
