@@ -23,6 +23,7 @@ export const sendNotificationEmail = async (inquiryData) => {
         const interestLabel = {
             franchise: 'Franchise Advisory',
             leasing:   'Corporate Leasing',
+            businessconsulting: 'Business Consulting',
             other:     'Other Inquiry',
         }[interest] || interest;
 
@@ -97,8 +98,8 @@ export const sendNotificationEmail = async (inquiryData) => {
                         <hr style="border:none;border-top:1px solid #dee2e6;margin:22px 0;">
                         <p style="color:#6c757d;font-size:13px;margin:0;line-height:1.6;">
                             <strong>Brand Incept</strong><br>
-                            Corporate Leasing &amp; Franchise Advisory<br>
-                            157 Avadh Arena, VIP Road Vesu, Surat, India
+                            Corporate Leasing | Franchise Advisory | Business Consulting<br>
+                            203 Milestone Atlantis Vesu Cross Road, Surat - 395007, India
                         </p>
                     </div>
                 </div>
