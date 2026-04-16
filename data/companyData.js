@@ -15,10 +15,10 @@ const projectsData = [
     },
     {
         brand: "Intune",
-        description: "Surat's 1st store located at Solaris Kode, VIP Road. Featuring a massive 5184 Sq.ft carpet area.",
+        description: "Surat's 1st store located at Solaris Kode, VIP Road. Featuring a massive Surat First Store.",
         tags: ["Surat", "Apparel", "Flagship"],
         image: "/assests/intune.png",
-        highlight: "5184 Sq.ft"
+        highlight: "Surat First Store"
     },
     {
         brand: "Mamaearth",
@@ -32,14 +32,14 @@ const projectsData = [
         description: "1st and biggest Dark Store in Gujarat at Surat (Sarthana & Bhimrad). Optimized for rapid logistical operations.",
         tags: ["Surat", "Q-Commerce", "Dark Store"],
         image: "/assests/zepto.png",
-        highlight: "Biggest in Gujarat"
+        highlight: "Surat First"
     },
     {
         brand: "Funky Monkeys",
         description: "Successfully established premium kids play zone at Ahmedabad One Mall, Vastrapur. Indoor playground and birthday party venue serving children up to 14 years.",
         tags: ["Ahmedabad", "Kids Entertainment", "Play Zone", "Mall Location"],
         image: "/assests/funkymonkeysproject.png",
-        highlight: "Prime mall location at Ahmedabad One"
+        highlight: "Prime location"
     },
     {
         brand: "Miniklub",
