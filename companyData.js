@@ -8,10 +8,10 @@ export const projectsData = [
     },
     {
         brand: "Intune",
-        description: "Surat's 1st store located at Solaris Kode, VIP Road. Featuring a massive 5184 Sq.ft carpet area.",
+        description: "Surat's 1st store located at Solaris Kode, VIP Road. Featuring a massive Surat First Store.",
         tags: ["Surat", "Apparel", "Flagship"],
         image: "/assests/intune.png",
-        highlight: "5184 Sq.ft"
+        highlight: "Surat First Store"
     },
     {
         brand: "Mamaearth",
@@ -25,14 +25,14 @@ export const projectsData = [
         description: "1st and biggest Dark Store in Gujarat at Surat (Sarthana & Bhimrad). Optimized for rapid logistical operations.",
         tags: ["Surat", "Q-Commerce", "Dark Store"],
         image: "/assests/zepto.png",
-        highlight: "Biggest in Gujarat"
+        highlight: "Surat First"
     },
     {
         brand: "Funky Monkeys",
         description: "Successfully established premium kids play zone at Ahmedabad One Mall, Vastrapur. Indoor playground and birthday party venue serving children up to 14 years.",
         tags: ["Ahmedabad", "Kids Entertainment", "Play Zone", "Mall Location"],
         image: "/assests/funkymonkeysproject.png",
-        highlight: "Prime mall location at Ahmedabad One"
+        highlight: "Prime location"
     },
     {
         brand: "Miniklub",
@@ -66,10 +66,10 @@ export const partnersData = [
     { name: "Chinese Wok", src: "/assests/chinesewok.png", desc: "Food" },
     { name: "Funky Monkeys", src: "/assests/funkymonkeys-removebg.png", desc: "Entertainment" },
     { name: "Intune", src: "/assests/intune-removebg.png", desc: "Apparel" },
-    { name: "Changa Chai", src: "/assests/changachai-removebg.png", desc: "F&B" },
-    { name: "Coffee Culture", src: "/assests/coffeeculture-removebg.png", desc: "F&B" },
-    { name: "Mahesh Pavbhaji", src: "/assests/maheshpavbhaji-removebg.png", desc: "F&B" },
+    { name: "Changa Chai", src: "/assests/changachai-removebg.png", desc: "International Cafe" },
+    { name: "Coffee Culture", src: "/assests/coffeeculture-removebg.png", desc: "International Cafe" },
+    { name: "Mahesh Pavbhaji", src: "/assests/maheshpavbhaji-removebg.png", desc: "International Cafe" },
     { name: "Purple Spa", src: "/assests/purplespa-removebg.png", desc: "Wellness" },
-    { name: "McDonald's", src: "/assests/Macd-removebg.png", desc: "F&B" },
+    { name: "McDonald's", src: "/assests/Macd-removebg.png", desc: "International Cafe" },
     { name: "Connplex Cinema", src: "/assests/connplex-logo.png", desc: "Entertainment" }
 ];
