@@ -53,7 +53,7 @@ const projectsData = [
         description: "Successfully leased and transacted. End-to-end home interior and design solutions.",
         tags: ["Ahmedabad", "Home Interiors"],
         image: "/assests/homelaneproject.png",
-        highlight: "Successfully Leased & Transacted"
+        highlight: "Gujarat 1st"
     },
     {
         brand: "Purple",
