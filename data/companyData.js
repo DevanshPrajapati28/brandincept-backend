@@ -11,7 +11,7 @@ const projectsData = [
         description: "1st and 2nd Hi-Street stores in Ahmedabad. Secured prime retail space on Sindhu Bhavan Road & CG Road.",
         tags: ["Ahmedabad", "Hi-Street", "F&B"],
         image: "/assests/timhortons.png",
-        highlight: "Premium Location"
+        highlight: "1st Store"
     },
     {
         brand: "Intune",
